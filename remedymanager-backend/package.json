@@ -1,0 +1,38 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/api/server.js",
+  "scripts": {
+    "start": "pm2-runtime start ecosystem.config.yml",
+    "dev": "nodemon .",
+    "heroku-postbuild": "npm install pm2",
+    "test": "mocha ./test/**/*$NAME*.{test,spec}.js --exit",
+    "test:coverage": "nyc --reporter=text npm run test",
+    "lint": "eslint --no-inline-config --ext .js --no-error-on-unmatched-pattern -c .eslintrc.json ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "eslint": "^6.8.0",
+    "eslint-config-trybe-backend": "^1.0.4",
+    "mocha": "^9.2.0",
+    "mongodb-memory-server": "^6.9.6",
+    "nodemon": "^2.0.15",
+    "nyc": "^15.1.0",
+    "sinon": "^13.0.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.3.1",
+    "pm2": "^5.1.2"
+  }
+}
