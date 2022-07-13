@@ -1,0 +1,104 @@
+.Login-page {
+  align-items: center;
+  background-color: rgb(41, 47, 59);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  justify-content: space-around;
+  min-height: 100vh;
+}
+
+.Login-page form {
+  background-color: rgb(57, 61, 68);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url("https://cdn.iconscout.com/icon/premium/png-256-thumb/digital-wallet-1532941-1299327.png");
+  display: flex;
+  flex-flow: column;
+  flex-basis: 30vh;
+  width: 50vh;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+}
+
+.container-img {
+  display: flex;
+  flex-flow: column;
+}
+
+.Login-page img {
+  margin: 30px 0 10px 0;
+  border-radius: 4px;
+  padding: 5px;
+  width: 70%;
+  box-shadow: 0 0 8px 4px rgba(0, 140, 186, 0.5);
+  background-color: rgba(0, 140, 186, 0.5);
+  transition: 0.5s;
+}
+
+.Login-page img:hover {
+  background-color: rgba(95, 195, 228, 0.5);
+  transform: scale(1.03);
+}
+
+.Login-page h2 {
+  color: rgb(0, 140, 186);
+  padding: 5px;
+  transition: 0.5s;
+  transform: scale3d(1.5,1.2,1.5);
+  box-shadow: 0 0 8px 8px rgba(0, 140, 186, 0.5);
+}
+
+.Login-page h2:hover {
+  color:  rgba(0, 140, 186, 0.5);
+}
+
+.Login-page .Login-filds {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Login-page .Login-filds label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Login-page .Login-filds input {
+  width: 20em;
+  margin: 10px;
+  font-size: 20px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  margin: 8px 0;
+}
+
+.Login-page .Login-filds input:hover {
+  box-shadow: 0 0 8px 4px rgba(71, 116, 131, 0.5);
+}
+
+.Login-page .Login-filds button {
+  width: 20em;
+  margin: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  align-self: center;
+  background-color: rgb(21, 134, 82);
+  color: rgb(244, 243, 243);
+  cursor: pointer;
+  padding: 12px 20px;
+  margin: 8px 0 40px 0;
+}
+
+.Login-page .Login-filds .btn-enable {
+  background-color: rgb(15, 100, 48);
+  box-shadow: 0 0 8px 4px rgba(0, 140, 186, 0.5);
+} 
