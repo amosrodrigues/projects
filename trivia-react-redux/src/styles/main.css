@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(40, 44, 52);
+  font-size: 25px;
+  font-family: cursive, sans-serif;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
+
+.question-box {
+  background-color: rgb(206, 217, 223);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  width: 100%;
+}
+
+.question-box .time {
+  background-color: rgb(10, 66, 43);
+  border: 3px solid rgb(70, 130, 180);
+  border-radius: 50%;
+  color: rgb(206, 217, 223);
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.container-question {
+  background-color: rgb(206, 217, 223);
+  color: rgb(10, 66, 43);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  margin-right: 30px;
+  line-height: 2;
+}
+
+.question-answers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  color: rgb(70, 130, 180);
+  margin-left: 30px;
+  width: 40%;
+}
+
+.question-answers button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  margin-bottom: 1em;
+  padding: 18px 0;
+  width: 90%;
+  font-size: 25px;
+  border-radius: 4em;
+  background-color: rgb(206, 217, 223);
+  box-shadow: 0 0 8px 4px rgba(21, 134, 82, 0.5);
+}
+
+.question-answers button:hover {
+  filter: brightness(120%);
+}
+
+.correct-answer-css {
+  border: 3px solid rgb(6, 240, 15);
+  color: rgb(10, 66, 43);
+  filter: brightness(120%);
+}
+
+.wrong-answer-css {
+  border: 3px solid red;
+}
+
+.box-buttons {
+  height: 110px;
+}
+
+.box-buttons button {
+  align-self: center;
+  background-color: rgb(8, 94, 54);
+  color: rgb(244, 243, 243);
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 12px 20px;
+  margin-top: 30px;
+  width: 15em;
+}
+
+.box-buttons button:hover {
+  background-color: rgb(10, 66, 43);
+}
+
+.main-content #trybe-img {
+  align-self: center;
+  flex-basis: 100%;
+  flex-grow: 1;
+  max-height: 120px;
+}

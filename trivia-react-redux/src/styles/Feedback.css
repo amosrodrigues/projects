@@ -1,0 +1,41 @@
+.container-result {
+  background-color: rgb(206, 217, 223);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  color: rgb(10, 66, 43);
+  justify-content: space-evenly;
+  height: 400px;
+  width: 100%;
+}
+
+.container-result p {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.container-result caption {
+  background-color: rgb(8, 94, 54);
+  color: rgb(244, 243, 243);
+  font-weight: 600;
+}
+
+.box-buttons-feed {
+  height: 110px;
+}
+
+.box-buttons-feed button {
+  align-self: center;
+  background-color: rgb(8, 94, 54);
+  color: rgb(244, 243, 243);
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 12px 20px;
+  margin: 30px;
+  width: 15em;
+}
+
+.box-buttons-feed button:hover {
+  background-color: rgb(10, 66, 43);
+}

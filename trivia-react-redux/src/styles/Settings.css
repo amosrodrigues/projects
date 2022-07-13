@@ -1,0 +1,41 @@
+.settings {
+  background-color: rgb(40, 44, 52);
+  background-image: url('../trivia.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 90ch;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  color: rgb(255, 255, 255);
+}
+
+.settings a {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+}
+
+.container-config {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  line-height: 2;
+  margin-top: 8em;
+}
+
+.question-cred {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  color: rgb(70, 130, 180);
+  width: 100%;
+  line-height: 2;
+}
