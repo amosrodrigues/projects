@@ -1,0 +1,55 @@
+.product-card {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  flex-grow: 1;
+  max-width: 200px;
+  margin: 10px;
+  padding: 0.2rem 2rem 1rem 2rem;
+  background-color: rgb(255 255 255);
+  box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.product-card:hover {
+  box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transform: scale(1.03);
+}
+
+.product-card img {
+  width: 80px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.product-card .product-info {
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 10px;
+  align-content: space-between;
+}
+
+.product-card #frete {
+  color: rgb(7, 77, 36);
+  display: flex;
+  align-items: flex-end;
+}
+
+.product-card  button {
+  background-color: rgb(19, 161, 78);
+  color: rgb(234, 234, 234);
+  font-size: 17px;
+  border-radius: 2em;
+  font-weight: 600;
+  width: 100%;
+  border: 1px solid rgb(19, 161, 78);
+
+}
+
+.product-card button:hover {
+  background-color: white;
+  color: rgb(19, 161, 78);
+  font-weight: 600;
+  cursor: pointer;
+}

@@ -1,0 +1,167 @@
+.header {
+  background-color: rgb(235 235 235);
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.search-bar {
+  background-color: rgb(255 241 89);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 100px;
+}
+
+.header .cart {
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  padding: 12px 5px;
+  margin-left: 30px;
+  background-color: rgb(255 255 255);
+  box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header .cart:hover {
+  box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header .cart p {
+  border-radius: 50%;
+  padding: 4px 8px;
+  background-color: rgb(255 241 89);
+  color: rgb(123, 45, 197);
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.product-card-detail {
+  align-content: center;
+  justify-content: space-around;
+  text-align: center;
+  flex-grow: 1;
+  width: 500px;
+  margin: 160px;
+  background-color: rgb(255 255 255);
+  padding: 0.2rem 2rem 1rem 2rem;
+  box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.product-card-detail:hover {
+  box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.product-card-detail img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.product-card-detail .product-info {
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 10px;
+}
+
+.product-card-detail #frete {
+  color: rgb(7, 77, 36);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.product-card-detail button {
+  background-color: rgb(19, 161, 78);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  border-radius: 2em;
+  font-weight: 600;
+  border: 1px solid rgb(19, 161, 78);
+  padding: 5px;
+}
+
+.product-card-detail button:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(19, 161, 78);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+.product-card-detail .card-detail {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+}
+
+.product-info #textarea {
+  color: rgb(7, 77, 36);
+  display: flex;
+  flex-flow: column;
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.product-info #evaluation {
+  border: 1px solid rgb(19, 161, 78);
+  padding: 10px;
+  font-size: 20px;
+}
+
+.product-info .avaliation {
+  color: rgb(7, 77, 36);
+  width: 100%;
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.product-info .avaliation #inputNote {
+  flex-basis: 30%;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid rgb(19, 161, 78);
+  border-radius: 2em;
+  padding: 5px;
+}
+
+.product-info .avaliation #nota {
+  color: rgb(7, 77, 36);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+}
+
+.product-info .avaliation button {
+  color: rgb(7, 77, 36);
+  background-color: rgb(255, 255, 255);
+  flex-basis: 65%;
+  padding: 5px;
+}
+
+.product-info .avaliation button:hover {
+  background-color: rgb(19, 161, 78);
+  color: rgb(255, 255, 255);
+}
+
+fieldset.elist {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  line-height: 0.1;
+  color: rgb(7, 77, 36);
+  border: 1px solid rgb(19, 161, 78);
+  margin-top: 30px;
+}
+
+fieldset.elist p {
+  color: rgb(38, 124, 74);
+}

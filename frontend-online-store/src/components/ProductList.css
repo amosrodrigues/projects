@@ -1,0 +1,18 @@
+.product-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:center;
+  flex-basis: 90%;
+  margin-left: 380px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.product-msg {
+  color: rgb(197, 45, 45);
+  align-self: center;
+  margin: auto;
+  margin-top: 40px;
+  font-size: 18px;
+  float: right;
+}

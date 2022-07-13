@@ -1,0 +1,32 @@
+.search-field {
+  background-color: rgb(255 255 255);
+  padding: 8px;
+  border-radius: 2em;
+  box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.search-field:hover {
+  box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.search-field button {
+  background-color: rgb(255 255 255);
+  color: rgb(123, 45, 197);
+  border: 2px solid rgb(123, 45, 197);
+  border-radius: 2em;
+  font-weight: 600;
+}
+
+.search-field button:hover {
+  cursor: pointer;
+  background-color: rgb(123, 45, 197);
+  color: rgb(255 255 255);
+  font-weight: 600;
+}
+
+.search-field input[type="text"] {
+  border: none;
+  margin-left: 10px;
+  width: 300px;
+  font-size: 16px;
+}
