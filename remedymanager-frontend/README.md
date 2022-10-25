@@ -60,7 +60,7 @@ Sobre o desenvolvimento:
 
 - Utilização do [ESLint](https://eslint.org/) apenas como plugin no vscode para padronização de ecrita do código.
 
-[Backend:](https://github.com/Amos-Rodrigues-Dev/desafio-memory-backend)
+[Backend:](https://github.com/amosrodrigues/projects/tree/main/remedymanager-backend)
 
 - Api hospedada na plataforma do [Heroku](https://www.heroku.com).
 
