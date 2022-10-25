@@ -70,7 +70,7 @@ Sobre o desenvolvimento:
 
 - Utilização do [ESLint](https://eslint.org/) apenas como plugin no vscode para padronização de ecrita do código.
 
-[Backend:](https://github.com/Amos-Rodrigues-Dev/tasksmanager-backend)
+[Backend:](https://github.com/amosrodrigues/projects/tree/main/tasksmanager-backend)
 
 - Api hospedada na plataforma do [Heroku](https://www.heroku.com).
 
